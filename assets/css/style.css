@@ -1301,6 +1301,23 @@ p {
   border-bottom: 7px solid transparent;
 }
 
+.work .title-area .line{
+  position: relative;
+}
+
+.work .title-area .line:before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 6px;
+  background: #a7def5;
+  transform:skew(-18deg);
+  border-radius: 5px;
+}
+
 .work .content ul li {
   float: left;
   width: 33.33%;
@@ -1328,6 +1345,10 @@ p {
   transition: all 0.5s ease-in;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.work .content ul li .item.yet .screen {
+  opacity: 1;
 }
 
 .work .content ul li .item:hover {

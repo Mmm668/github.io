@@ -1633,7 +1633,7 @@ table {
         width: 44px;
         height: 32px;
         margin: 0 auto;
-        background: url(../../../assets/img/header_icon.png) 0 0 / cover no-repeat;
+        background: url(../../../assets/img/header_icon.jpeg) 0 0 / cover no-repeat;
         &.mypage{
           background-position: -41px 0;
         }

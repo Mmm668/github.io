@@ -1428,6 +1428,7 @@ p {
 }
 
 .work .content ul li .item .thumb img {
+  width: 100%;
   -webkit-transition: all 3s ease-in-out;
   transition: all 3s ease-in-out;
 }

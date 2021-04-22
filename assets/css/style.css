@@ -1422,7 +1422,8 @@ p {
 }
 
 .work .content ul li .item .thumb {
-  background: url(https://images.unsplash.com/photo-1506305269769-53a5714a93be?auto=format&fit=crop&w=645&q=80) 50% 50%/cover no-repeat;
+  /* background: url(https://images.unsplash.com/photo-1506305269769-53a5714a93be?auto=format&fit=crop&w=645&q=80) 50% 50%/cover no-repeat; */
+  background: url(../img/loader.gif) 50% 50%/cover no-repeat;
   height: 380px;
   overflow: hidden;
 }
